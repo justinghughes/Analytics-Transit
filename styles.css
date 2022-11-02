@@ -1,0 +1,218 @@
+html {
+    background: url(images/6474410fe8b07a40eec90ec6e20fe72c.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.layer {
+    background-color: rgba(17, 66, 111, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#body-container {
+    margin-left: 100px;
+    color: white;
+}
+
+/* Profile Section */
+
+#profile-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 70px;
+   
+}
+
+#profile-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+#profile-welcome {
+    padding-right: 20px;
+}
+
+#logout {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+#profile-picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+/* Logo Section */
+
+#logo-container {
+    display: flex;
+    width:fit-content;
+    margin-top: -80px;
+}
+
+#logo-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-text-h {
+    color: white;
+    margin: -4px 0px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.logo-text2 {
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.hexalytics-logo {
+    width: 130px;
+    height: 130px;
+}
+
+/* Heading Section */
+
+#welcome-header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1243px;
+}
+
+.p-welcome {
+    font-size: 18px;
+}
+
+.h1-welcome {
+    font-size: 52px;
+}
+
+/* Content Section */
+
+#content {
+    display: flex;
+}
+
+#latest-news {
+    background-color: rgba(12, 31, 68, .6);
+    border-radius: 8px;
+    width: 613px;
+    height: 600px;
+    margin-top: 50px;
+    padding: 30px 20px 20px 20px;
+}
+
+.news-date {
+    font-size: 12px;
+}
+
+.latest-news-h {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#content-img1 {
+    width: 575.8px;
+    height: 238px;
+    border-radius: 8px;
+}
+
+.latest-news-p {
+    width: 574.11px;
+    height: 72px;
+    font-size: 14px;
+}
+
+.see-more-btn {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(76, 128, 228, 1);
+    color: white;
+    border-radius: 8px;
+    width: 101.46px;
+    height: 56px;
+    margin-left: 470px;
+    font-size: 16px;
+}
+
+/* Row Content Section */
+
+#row-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.row-content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    flex-grow: 1;
+    background-color: rgba(12, 31, 68, .6);
+    width: 434px;
+    height: 192.33px;
+    border-radius: 8px;
+    font-size: 28px;
+}
+
+.row-item1, .row-item2 {
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 122px;
+    background-color: rgba(24, 103, 255, 1);
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.hexalytics-logo2 {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-hex-text {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#footer-text-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+    gap: 25px;
+}
+
+
+
+
